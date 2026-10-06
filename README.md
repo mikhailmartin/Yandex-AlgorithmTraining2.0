@@ -1,6 +1,6 @@
 # [Тренировки по алгоритмам 2.0](https://yandex.ru/yaintern/algorithm-training_june_2021)
 
-<details><summary>❌ HomeWork1 «Сложность, тестирование, особые случаи»</summary>
+<details open="true"><summary>❌ HomeWork1 «Сложность, тестирование, особые случаи»</summary>
 
   <details open="true"><summary>Дивизион A</summary>
 
@@ -14,7 +14,7 @@
 
   <details open="true"><summary>Дивизион B</summary>
 
-  - ❌ A. Interactor
+  - ✔️ A. Interactor
   - ❌ B. Кольцевая линия метро
   - ❌ C. Даты
   - ❌ D. Строительство школы
