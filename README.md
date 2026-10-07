@@ -5,7 +5,7 @@
   <details open="true"><summary>❌ Дивизион A</summary>
 
   - ✔️ A. Сложное уравнение
-  - ❌ B. Параллелограмм
+  - ✔️ B. Параллелограмм
   - ❌ C. Проверьте правильность ситуации
   - ❌ D. Футурама
   - ❌ E. Another Pair of Triangles
