@@ -4,11 +4,11 @@
 
   <details open="true"><summary>❌ Дивизион A</summary>
 
-  - ❌ A.
-  - ❌ B.
-  - ❌ C.
-  - ❌ D.
-  - ❌ E.
+  - ✔️ A. Сложное уравнение
+  - ❌ B. Параллелограмм
+  - ❌ C. Проверьте правильность ситуации
+  - ❌ D. Футурама
+  - ❌ E. Another Pair of Triangles
 
   </details>
 

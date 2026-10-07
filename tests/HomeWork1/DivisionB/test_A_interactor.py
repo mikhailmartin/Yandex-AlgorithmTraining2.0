@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.A_interactor import Solver
+from HomeWork1.DivisionB.A_interactor import Solver
 
 
 @pytest.mark.parametrize(

@@ -6,16 +6,14 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.E_point_and_triangle import Solver
+from HomeWork1.DivisionB.C_dates import Solver
 
 
 @pytest.mark.parametrize(
     ("lines", "expected"),
     [
-        param(["5", "1 1"], 0, id="example1"),
-        param(["3", "-1 -1"], 1, id="example2"),
-        param(["4", "4 4"], 2, id="example3"),
-        param(["4", "2 2"], 0, id="example4"),
+        param(["1 2 2003"], 0, id="example1"),
+        param(["2 29 2008"], 1, id="example2"),
     ],
 )
 def test_solve(lines, expected):

@@ -6,16 +6,14 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.B_circle_line_of_metro import Solver
+from HomeWork1.DivisionA.A_complex_equation import Solver
 
 
 @pytest.mark.parametrize(
     ("lines", "expected"),
     [
-        param(["100 5 6"], 0, id="example1"),
-        param(["10 1 9"], 1, id="example2"),
-        param(["100 6 5"], 0, id="custom1"),
-        param(["10 9 1"], 1, id="custom2"),
+        param(["1", "1", "2", "2"], "NO", id="example1"),
+        param(["2", "-4", "7", "1"], "2", id="example2"),
     ],
 )
 def test_solve(lines, expected):
