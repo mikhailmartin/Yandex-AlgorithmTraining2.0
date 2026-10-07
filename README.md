@@ -2,7 +2,7 @@
 
 <details open="true"><summary>❌ HomeWork1 «Сложность, тестирование, особые случаи»</summary>
 
-  <details open="true"><summary>Дивизион A</summary>
+  <details open="true"><summary>❌ Дивизион A</summary>
 
   - ❌ A.
   - ❌ B.
@@ -12,13 +12,13 @@
 
   </details>
 
-  <details open="true"><summary>Дивизион B</summary>
+  <details><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Interactor
   - ✔️ B. Кольцевая линия метро
   - ✔️ C. Даты
   - ✔️ D. Строительство школы
-  - ❌ E. Точка и треугольник
+  - ✔️ E. Точка и треугольник
 
   </details>
 
