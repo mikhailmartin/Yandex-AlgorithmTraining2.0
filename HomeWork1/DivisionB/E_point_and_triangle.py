@@ -29,81 +29,59 @@ A, 2 – к B, 3 – к C). Если точка расположена на од
 вершин, выведите ту вершину, номер которой меньше.
 
 
-Пример 1
-input: 5
-input: 1 1
-output: 0
+Пример 1:
+input:
+5
+1 1
+output:
+0
 
-Пример 2
-input: 3
-input: -1 -1
-output: 1
+Пример 2:
+input:
+3
+-1 -1
+output:
+1
 
-Пример 3
-input: 4
-input: 4 4
-output: 2
+Пример 3:
+input:
+4
+4 4
+output:
+2
 
-Пример 4
-input: 4
-input: 2 2
-output: 0
+Пример 4:
+input:
+4
+2 2
+output:
+0
 """
 import sys
-from dataclasses import dataclass
-from typing import Self
 
 
-@dataclass
-class ProblemInput:
-    d: int
-    x: int
-    y: int
+def main(lines: list[str] | None = None) -> int:
 
+    lines = lines or sys.stdin.read().splitlines()
 
-class Solver:
-    def __init__(self, data: ProblemInput) -> None:
-        self.data = data
+    d = int(lines[0])
+    x, y = map(int, lines[1].split())
 
-    @classmethod
-    def from_stdin(cls) -> Self:
-        d = int(sys.stdin.readline().strip())
-        x, y = map(int, sys.stdin.readline().strip().split())
-        return cls(ProblemInput(d, x, y))
+    if 0 <= x <= d and 0 <= y <= d and x + y <= d:
+        return 0
 
-    @classmethod
-    def from_strings(cls, lines: list[str]) -> Self:
-        d = int(lines[0])
-        x, y = map(int, lines[1].split())
-        return cls(ProblemInput(d, x, y))
+    min_dist = 1001 * 1001
+    closest_vertex = -1
+    vertexes = ((0, 0), (d, 0), (0, d))
+    for i, (xt, yt) in enumerate(vertexes, 1):
+        curr_dist = (x - xt) * (x - xt) + (y - yt) * (y - yt)
+        if curr_dist < min_dist:
+            min_dist = curr_dist
+            closest_vertex = i
 
-    def solve(self) -> int:
-
-        d = self.data.d
-        x = self.data.x
-        y = self.data.y
-
-        if 0 <= x <= d and 0 <= y <= d and x + y <= d:
-            return 0
-
-        min_dist = 1001 * 1001
-        closest_vertex = -1
-        vertexes = ((0, 0), (d, 0), (0, d))
-        for i, (xt, yt) in enumerate(vertexes, 1):
-            curr_dist = (x - xt) * (x - xt) + (y - yt) * (y - yt)
-            if curr_dist < min_dist:
-                min_dist = curr_dist
-                closest_vertex = i
-        return closest_vertex
-
-
-def main() -> None:
-
-    solver = Solver.from_stdin()
-    result = solver.solve()
-
-    print(result)
+    return closest_vertex
 
 
 if __name__ == "__main__":
-    main()
+    result = main()
+    print(result)

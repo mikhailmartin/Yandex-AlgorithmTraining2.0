@@ -35,54 +35,33 @@
 школу. Если ответов несколько, выведите любой из них.
 
 
-Пример 1
-input: 4
-input: 1 2 3 4
-output: 3
+Пример 1:
+input:
+4
+1 2 3 4
+output:
+3
 
-Пример 2
-input: 3
-input: -1 0 1
-output: 0
+Пример 2:
+input:
+3
+-1 0 1
+output:
+0
 """
 import sys
-from dataclasses import dataclass
-from typing import Self
 
 
-@dataclass
-class ProblemInput:
-    n: int
-    students: list[int]
+def main(lines: list[str] | None = None) -> int:
 
+    lines = lines or sys.stdin.read().splitlines()
 
-class Solver:
-    def __init__(self, data: ProblemInput) -> None:
-        self.data = data
+    n = int(lines[0])
+    students = list(map(int, lines[1].split()))
 
-    @classmethod
-    def from_stdin(cls) -> Self:
-        n = int(sys.stdin.readline().strip())
-        students = list(map(int, sys.stdin.readline().strip().split()))
-        return cls(ProblemInput(n, students))
-
-    @classmethod
-    def from_strings(cls, lines: list[str]) -> Self:
-        n = int(lines[0])
-        students = list(map(int, lines[1].split()))
-        return cls(ProblemInput(n, students))
-
-    def solve(self) -> int:
-        return self.data.students[self.data.n // 2]
-
-
-def main() -> None:
-
-    solver = Solver.from_stdin()
-    result = solver.solve()
-
-    print(result)
+    return students[n // 2]
 
 
 if __name__ == "__main__":
-    main()
+    result = main()
+    print(result)

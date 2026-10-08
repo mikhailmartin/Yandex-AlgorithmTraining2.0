@@ -32,75 +32,40 @@
 запросов должен быть в отдельной строке без кавычек.
 
 
-Пример
-input: 3
-input: 1 1 4 2 3 0 2 3
-input: 1 1 5 2 2 3 3 0
-input: 0 0 5 1 6 3 1 2
-output: YES
-output: NO
-output: YES
+Пример:
+input:
+3
+1 1 4 2 3 0 2 3
+1 1 5 2 2 3 3 0
+0 0 5 1 6 3 1 2
+output:
+YES
+NO
+YES
 """
 import sys
-from dataclasses import dataclass
 from itertools import permutations
-from typing import Self
 
 
-@dataclass
-class ProblemInput:
-    n: int
-    questions: list[int]
+def main(lines: list[str] | None = None) -> list[str]:
 
+    lines = lines or sys.stdin.read().splitlines()
 
-class Solver:
-    def __init__(self, data: ProblemInput) -> None:
-        self.data = data
+    n = int(lines[0])
+    result = []
+    for i in range(n):
+        xa, ya, xb, yb, xc, yc, xd, yd = map(int, lines[i+1].split())
+        points = [(xa, ya), (xb, yb), (xc, yc), (xd, yd)]
+        answer = "NO"
+        for p1, p2, p3, p4 in permutations(points):
+            if p1[0] + p2[0] == p3[0] + p4[0] and p1[1] + p2[1] == p3[1] + p4[1]:
+                answer = "YES"
+                break
+        result.append(answer)
 
-    @classmethod
-    def from_stdin(cls) -> Self:
-        n = int(sys.stdin.readline().strip())
-        questions = []
-        for _ in range(n):
-            xa, ya, xb, yb, xc, yc, xd, yd = map(int, sys.stdin.readline().strip().split())
-            questions.append((xa, ya, xb, yb, xc, yc, xd, yd))
-        return cls(ProblemInput(n, questions))
-
-    @classmethod
-    def from_strings(cls, lines: list[str]) -> Self:
-        n = int(lines[0])
-        questions = []
-        for i in range(n):
-            xa, ya, xb, yb, xc, yc, xd, yd = map(int, lines[i+1].split())
-            questions.append((xa, ya, xb, yb, xc, yc, xd, yd))
-        return cls(ProblemInput(n, questions))
-
-    def solve(self) -> list[str]:
-
-        result = []
-        for xa, ya, xb, yb, xc, yc, xd, yd in self.data.questions:
-            points = [(xa, ya), (xb, yb), (xc, yc), (xd, yd)]
-            answer = "NO"
-            for p1, p2, p3, p4 in permutations(points):
-                if self.middle(p1, p2) == self.middle(p3, p4):
-                    answer = "YES"
-                    break
-            result.append(answer)
-
-        return result
-
-    @staticmethod
-    def middle(p1: tuple[int, int], p2: tuple[int, int]) -> tuple[float, float]:
-        return p1[0] + p2[0], p1[1] + p2[1]
-
-
-def main() -> None:
-
-    solver = Solver.from_stdin()
-    result = solver.solve()
-
-    print("\n".join(result))
+    return result
 
 
 if __name__ == "__main__":
-    main()
+    result = main()
+    print("\n".join(result))

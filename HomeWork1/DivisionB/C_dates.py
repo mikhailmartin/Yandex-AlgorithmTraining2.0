@@ -27,13 +27,17 @@ x y z задаёт корректную дату.
 Выведите 1, если дата определяется однозначно, и 0 в противном случае.
 
 
-Пример 1
-input: 1 2 2003
-output: 0
+Пример 1:
+input:
+1 2 2003
+output:
+0
 
-Пример 2
-input: 2 29 2008
-output: 1
+Пример 2:
+input:
+2 29 2008
+output:
+1
 
 
 Примечания:
@@ -44,51 +48,22 @@ output: 1
 формате, где она задаёт 29 февраля 2008 года.
 """
 import sys
-from dataclasses import dataclass
-from typing import Self
 
 
-@dataclass
-class ProblemInput:
-    x: int
-    y: int
-    z: int
+def main(lines: list[str] | None = None) -> int:
 
+    lines = lines or sys.stdin.read().splitlines()
 
-class Solver:
-    def __init__(self, data: ProblemInput) -> None:
-        self.data = data
+    x, y, z = map(int, lines[0].split())
 
-    @classmethod
-    def from_stdin(cls) -> Self:
-        x, y, z = map(int, sys.stdin.readline().strip().split())
-        return cls(ProblemInput(x, y, z))
-
-    @classmethod
-    def from_strings(cls, lines: list[str]) -> Self:
-        x, y, z = map(int, lines[0].split())
-        return cls(ProblemInput(x, y, z))
-
-    def solve(self) -> int:
-
-        x = self.data.x
-        y = self.data.y
-
-        if x == y:
-            return 1
-        elif x > 12 or y > 12:
-            return 1
-        else:
-            return 0
-
-
-def main() -> None:
-
-    solver = Solver.from_stdin()
-    result = solver.solve()
-
-    print(result)
+    if x == y:
+        return 1
+    elif x > 12 or y > 12:
+        return 1
+    else:
+        return 0
 
 
 if __name__ == "__main__":
-    main()
+    result = main()
+    print(result)

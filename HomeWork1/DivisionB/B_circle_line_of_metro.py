@@ -26,13 +26,17 @@
 посадки и высадки), которые необходимо проехать Вите.
 
 
-Пример 1
-input: 100 5 6
-output: 0
+Пример 1:
+input:
+100 5 6
+output:
+0
 
-Пример 2
-input: 10 1 9
-output: 1
+Пример 2:
+input:
+10 1 9
+output:
+1
 
 
 Пояснения к примерам:
@@ -42,50 +46,20 @@ output: 1
    одну промежуточную, ее номер 10
 """
 import sys
-from dataclasses import dataclass
-from typing import Self
 
 
-@dataclass
-class ProblemInput:
-    n: int
-    i: int
-    j: int
+def main(lines: list[str] | None = None) -> int:
 
+    lines = lines or sys.stdin.read().splitlines()
 
-class Solver:
-    def __init__(self, data: ProblemInput) -> None:
-        self.data = data
+    n, i, j = map(int, lines[0].split())
 
-    @classmethod
-    def from_stdin(cls) -> Self:
-        n, i, j = map(int, sys.stdin.readline().strip().split())
-        return cls(ProblemInput(n, i, j))
+    a = (n + j - i) % n
+    b = (n + i - j) % n
 
-    @classmethod
-    def from_strings(cls, lines: list[str]) -> Self:
-        n, i, j = map(int, lines[0].split())
-        return cls(ProblemInput(n, i, j))
-
-    def solve(self) -> int:
-
-        n = self.data.n
-        i = self.data.i
-        j = self.data.j
-
-        a = (n + j - i) % n
-        b = (n + i - j) % n
-
-        return min(a, b) - 1
-
-
-def main() -> None:
-
-    solver = Solver.from_stdin()
-    result = solver.solve()
-
-    print(result)
+    return min(a, b) - 1
 
 
 if __name__ == "__main__":
-    main()
+    result = main()
+    print(result)

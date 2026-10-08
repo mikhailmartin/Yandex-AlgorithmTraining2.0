@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.DivisionA.A_complex_equation import Solver
+from HomeWork1.DivisionA.A_complex_equation import main
 
 
 @pytest.mark.parametrize(
@@ -17,5 +17,4 @@ from HomeWork1.DivisionA.A_complex_equation import Solver
     ],
 )
 def test_solve(lines, expected):
-    solver = Solver.from_strings(lines)
-    assert solver.solve() == expected
+    assert main(lines) == expected

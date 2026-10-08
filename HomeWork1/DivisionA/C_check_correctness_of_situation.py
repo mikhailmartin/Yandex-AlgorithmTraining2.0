@@ -28,29 +28,37 @@
 игры, и NO в противном случае.
 
 
-Пример 1
-input: 1 1 1
-input: 1 1 1
-input: 1 1 1
-output: NO
+Пример 1:
+input:
+1 1 1
+1 1 1
+1 1 1
+output:
+NO
 
-Пример 2
-input: 2 1 1
-input: 1 1 2
-input: 2 2 1
-output: YES
+Пример 2:
+input:
+2 1 1
+1 1 2
+2 2 1
+output:
+YES
 
-Пример 3
-input: 1 1 1
-input: 2 0 2
-input: 0 0 0
-output: YES
+Пример 3:
+input:
+1 1 1
+2 0 2
+0 0 0
+output:
+YES
 
-Пример 4
-input: 0 0 0
-input: 0 1 0
-input: 0 0 0
-output: YES
+Пример 4:
+input:
+0 0 0
+0 1 0
+0 0 0
+output:
+YES
 """
 import sys
 from itertools import product
