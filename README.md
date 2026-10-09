@@ -1,14 +1,14 @@
 # [Тренировки по алгоритмам 2.0](https://yandex.ru/yaintern/algorithm-training_june_2021)
 
-<details open="true"><summary>❌ HomeWork1 «Сложность, тестирование, особые случаи»</summary>
+<details><summary>✔️ HomeWork1 «Сложность, тестирование, особые случаи»</summary>
 
-  <details open="true"><summary>❌ Дивизион A</summary>
+  <details><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Сложное уравнение
   - ✔️ B. Параллелограмм
   - ✔️ C. Проверьте правильность ситуации
   - ✔️ D. Футурама
-  - ❌ E. Another Pair of Triangles
+  - ✔️ E. Another Pair of Triangles
 
   </details>
 
