@@ -23,7 +23,18 @@
   </details>
 
 </details>
-<details><summary>❌ HomeWork2 «Линейный поиск»</summary>
+<details open="true"><summary>❌ HomeWork2 «Линейный поиск»</summary>
+
+  <details open="true"><summary>❌ Дивизион B</summary>
+
+  - ✔️ A. Количество равных максимальному
+  - ❌ B. Дома и магазины
+  - ❌ C. Изготовление палиндромов
+  - ❌ D. Лавочки в атриуме
+  - ❌ E. Дипломы в папках
+
+  </details>
+
 </details>
 <details><summary>❌ HomeWork3 «Множества»</summary>
 </details>
