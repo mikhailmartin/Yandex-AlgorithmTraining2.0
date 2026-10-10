@@ -25,13 +25,23 @@
 </details>
 <details open="true"><summary>❌ HomeWork2 «Линейный поиск»</summary>
 
-  <details open="true"><summary>❌ Дивизион B</summary>
+  <details open="true"><summary>❌ Дивизион A</summary>
+
+  - ❌ A. Забавный конфуз
+  - ❌ B. Изобретательный Петя
+  - ❌ C. Шахматная доска
+  - ❌ D. Петя, Маша и верёвочки
+  - ❌ E. Газон
+
+  </details>
+
+  <details><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Количество равных максимальному
   - ✔️ B. Дома и магазины
   - ✔️ C. Изготовление палиндромов
   - ✔️ D. Лавочки в атриуме
-  - ❌ E. Дипломы в папках
+  - ✔️ E. Дипломы в папках
 
   </details>
 
