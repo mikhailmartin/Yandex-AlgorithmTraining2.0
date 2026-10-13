@@ -23,15 +23,15 @@
   </details>
 
 </details>
-<details open="true"><summary>❌ HomeWork2 «Линейный поиск»</summary>
+<details><summary>✔️ HomeWork2 «Линейный поиск»</summary>
 
-  <details open="true"><summary>❌ Дивизион A</summary>
+  <details><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Забавный конфуз
   - ✔️ B. Изобретательный Петя
   - ✔️ C. Шахматная доска
   - ✔️ D. Петя, Маша и верёвочки
-  - ❌ E. Газон
+  - ✔️ E. Газон
 
   </details>
 
@@ -46,7 +46,7 @@
   </details>
 
 </details>
-<details><summary>❌ HomeWork3 «Множества»</summary>
+<details  open="true"><summary>❌ HomeWork3 «Множества»</summary>
 </details>
 <details><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
 </details>
