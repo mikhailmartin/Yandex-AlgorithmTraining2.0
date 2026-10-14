@@ -46,7 +46,18 @@
   </details>
 
 </details>
-<details  open="true"><summary>❌ HomeWork3 «Множества»</summary>
+<details open="true"><summary>❌ HomeWork3 «Множества»</summary>
+
+  <details open="true"><summary>❌ Дивизион B</summary>
+
+  - ✔️ A. Количество совпадающих
+  - ❌ B. Встречалось ли число раньше
+  - ❌ C. Уникальные элементы
+  - ❌ D. Угадай число
+  - ❌ E. Автомобильные номера
+
+  </details>
+
 </details>
 <details><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
 </details>
