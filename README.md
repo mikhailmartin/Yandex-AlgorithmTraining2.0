@@ -48,13 +48,13 @@
 </details>
 <details open="true"><summary>❌ HomeWork3 «Множества»</summary>
 
-  <details open="true"><summary>❌ Дивизион B</summary>
+  <details><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Количество совпадающих
   - ✔️ B. Встречалось ли число раньше
   - ✔️ C. Уникальные элементы
   - ✔️ D. Угадай число
-  - ❌ E. Автомобильные номера
+  - ✔️ E. Автомобильные номера
 
   </details>
 
