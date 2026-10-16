@@ -48,6 +48,16 @@
 </details>
 <details open="true"><summary>❌ HomeWork3 «Множества»</summary>
 
+  <details open="true"><summary>❌ Дивизион A</summary>
+
+  - ✔️ A. Угадай число - 2
+  - ❌ B. Мультиграф
+  - ❌ C. Забастовки
+  - ❌ D. Жребий Крижановского
+  - ❌ E. Фибоначчи возвращается
+
+  </details>
+
   <details><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Количество совпадающих
