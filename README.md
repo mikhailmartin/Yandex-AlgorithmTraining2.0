@@ -46,15 +46,15 @@
   </details>
 
 </details>
-<details open="true"><summary>❌ HomeWork3 «Множества»</summary>
+<details><summary>✔️ HomeWork3 «Множества»</summary>
 
-  <details open="true"><summary>❌ Дивизион A</summary>
+  <details><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Угадай число - 2
   - ✔️ B. Мультиграф
   - ✔️ C. Забастовки
   - ✔️ D. Жребий Крижановского
-  - ❌ E. Фибоначчи возвращается
+  - ✔️ E. Фибоначчи возвращается
 
   </details>
 
@@ -69,7 +69,7 @@
   </details>
 
 </details>
-<details><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
+<details open="true"><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
 </details>
 <details><summary>❌ HomeWork5 «Префиксные суммы и два указателя»</summary>
 </details>
