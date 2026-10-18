@@ -70,6 +70,17 @@
 
 </details>
 <details open="true"><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
+
+  <details><summary>❌ Дивизион B</summary>
+
+  - ✔️ A. Толя-Карп и новый набор структур, часть 2
+  - ❌ B. Выборы в США
+  - ❌ C. Частотный анализ
+  - ❌ D. Выборы Государственной Думы
+  - ❌ E. Форум
+
+  </details>
+
 </details>
 <details><summary>❌ HomeWork5 «Префиксные суммы и два указателя»</summary>
 </details>
