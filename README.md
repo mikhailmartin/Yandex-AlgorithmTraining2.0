@@ -71,13 +71,23 @@
 </details>
 <details open="true"><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
 
-  <details><summary>❌ Дивизион B</summary>
+  <details open="true"><summary>❌ Дивизион A</summary>
+
+  - ❌ A. Палиндром
+  - ❌ B. Головоломка
+  - ❌ C. Драгоценные камни
+  - ❌ D. Числа
+  - ❌ E. Имена
+
+  </details>
+
+  <details><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Толя-Карп и новый набор структур, часть 2
   - ✔️ B. Выборы в США
   - ✔️ C. Частотный анализ
   - ✔️ D. Выборы Государственной Думы
-  - ❌ E. Форум
+  - ✔️ E. Форум
 
   </details>
 
