@@ -69,15 +69,15 @@
   </details>
 
 </details>
-<details open="true"><summary>❌ HomeWork4 «Словари и сортировка подсчётом»</summary>
+<details><summary>✔️ HomeWork4 «Словари и сортировка подсчётом»</summary>
 
-  <details open="true"><summary>❌ Дивизион A</summary>
+  <details><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Палиндром
   - ✔️ B. Головоломка
   - ✔️ C. Драгоценные камни
   - ✔️ D. Числа
-  - ❌ E. Имена
+  - ✔️ E. Имена
 
   </details>
 
