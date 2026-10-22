@@ -92,7 +92,16 @@
   </details>
 
 </details>
-<details><summary>❌ HomeWork5 «Префиксные суммы и два указателя»</summary>
+<details open="true"><summary>❌ HomeWork5 «Префиксные суммы и два указателя»</summary>
+
+  <details open="true"><summary>❌ Дивизион B</summary>
+  - ✔️ A. Префиксные суммы
+  - ❌ B. Максимальная сумма
+  - ❌ C. Каждому по компьютеру
+  - ❌ D. Правильная, круглая, скобочная
+  - ❌ E. Сумма трёх
+  </details>
+
 </details>
 <details><summary>❌ HomeWork6 «Бинарный поиск»</summary>
 </details>
