@@ -2,7 +2,7 @@
 
 <details><summary>✔️ HomeWork1 «Сложность, тестирование, особые случаи»</summary>
 
-  <details><summary>✔️ Дивизион A</summary>
+  <details open="true"><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Сложное уравнение
   - ✔️ B. Параллелограмм
@@ -12,7 +12,7 @@
 
   </details>
 
-  <details><summary>✔️ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Interactor
   - ✔️ B. Кольцевая линия метро
@@ -25,7 +25,7 @@
 </details>
 <details><summary>✔️ HomeWork2 «Линейный поиск»</summary>
 
-  <details><summary>✔️ Дивизион A</summary>
+  <details open="true"><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Забавный конфуз
   - ✔️ B. Изобретательный Петя
@@ -35,7 +35,7 @@
 
   </details>
 
-  <details><summary>✔️ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Количество равных максимальному
   - ✔️ B. Дома и магазины
@@ -48,7 +48,7 @@
 </details>
 <details><summary>✔️ HomeWork3 «Множества»</summary>
 
-  <details><summary>✔️ Дивизион A</summary>
+  <details open="true"><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Угадай число - 2
   - ✔️ B. Мультиграф
@@ -58,7 +58,7 @@
 
   </details>
 
-  <details><summary>✔️ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Количество совпадающих
   - ✔️ B. Встречалось ли число раньше
@@ -71,7 +71,7 @@
 </details>
 <details><summary>✔️ HomeWork4 «Словари и сортировка подсчётом»</summary>
 
-  <details><summary>✔️ Дивизион A</summary>
+  <details open="true"><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Палиндром
   - ✔️ B. Головоломка
@@ -81,7 +81,7 @@
 
   </details>
 
-  <details><summary>✔️ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Толя-Карп и новый набор структур, часть 2
   - ✔️ B. Выборы в США
@@ -104,7 +104,7 @@
 
   </details>
 
-  <details><summary>✔️ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Префиксные суммы
   - ✔️ B. Максимальная сумма
