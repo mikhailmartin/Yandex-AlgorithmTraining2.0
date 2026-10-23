@@ -94,13 +94,23 @@
 </details>
 <details open="true"><summary>❌ HomeWork5 «Префиксные суммы и два указателя»</summary>
 
-  <details open="true"><summary>❌ Дивизион B</summary>
+  <details open="true"><summary>❌ Дивизион A</summary>
+
+  - ❌ A. 
+  - ❌ B. 
+  - ❌ C. 
+  - ❌ D. 
+  - ❌ E. 
+
+  </details>
+
+  <details><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Префиксные суммы
   - ✔️ B. Максимальная сумма
   - ✔️ C. Каждому по компьютеру
   - ✔️ D. Правильная, круглая, скобочная
-  - ❌ E. Сумма трёх
+  - ✔️ E. Сумма трёх
 
   </details>
 
