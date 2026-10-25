@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork2.DivisionB.C_making_palindromes import main
+from HomeWork2.DivisionB.C_making_palindromes.main import main
 
 
 @pytest.mark.parametrize(
@@ -17,5 +17,5 @@ from HomeWork2.DivisionB.C_making_palindromes import main
         param(["cognitive"], 4, id="example3"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

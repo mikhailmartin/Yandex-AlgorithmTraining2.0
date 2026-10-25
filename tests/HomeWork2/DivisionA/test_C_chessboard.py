@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork2.DivisionA.C_chessboard import main
+from HomeWork2.DivisionA.C_chessboard.main import main
 
 
 @pytest.mark.parametrize(
@@ -16,5 +16,5 @@ from HomeWork2.DivisionA.C_chessboard import main
         param(["1", "8 8"], 4, id="example2"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

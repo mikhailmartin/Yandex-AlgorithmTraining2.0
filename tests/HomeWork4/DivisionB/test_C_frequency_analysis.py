@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork4.DivisionB.C_frequency_analysis import main
+from HomeWork4.DivisionB.C_frequency_analysis.main import main
 
 
 @pytest.mark.parametrize(
@@ -68,5 +68,5 @@ from HomeWork4.DivisionB.C_frequency_analysis import main
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

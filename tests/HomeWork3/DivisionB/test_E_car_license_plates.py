@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork3.DivisionB.E_car_license_plates import main
+from HomeWork3.DivisionB.E_car_license_plates.main import main
 
 
 @pytest.mark.parametrize(
@@ -40,5 +40,5 @@ from HomeWork3.DivisionB.E_car_license_plates import main
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

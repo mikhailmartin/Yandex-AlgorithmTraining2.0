@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork4.DivisionB.D_state_Duma_elections import main
+from HomeWork4.DivisionB.D_state_Duma_elections.main import main
 
 
 @pytest.mark.parametrize(
@@ -49,5 +49,5 @@ from HomeWork4.DivisionB.D_state_Duma_elections import main
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

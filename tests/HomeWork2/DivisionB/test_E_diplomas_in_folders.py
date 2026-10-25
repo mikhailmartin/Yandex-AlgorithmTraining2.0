@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork2.DivisionB.E_diplomas_in_folders import main
+from HomeWork2.DivisionB.E_diplomas_in_folders.main import main
 
 
 @pytest.mark.parametrize(
@@ -15,5 +15,5 @@ from HomeWork2.DivisionB.E_diplomas_in_folders import main
         param(["2", "2 1"], 1, id="example1"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

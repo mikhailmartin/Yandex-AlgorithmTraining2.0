@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork4.DivisionA.A_palindrome import main
+from HomeWork4.DivisionA.A_palindrome.main import main
 
 
 @pytest.mark.parametrize(
@@ -17,5 +17,5 @@ from HomeWork4.DivisionA.A_palindrome import main
         param(["6", "ABCDEF"], "A", id="example3"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

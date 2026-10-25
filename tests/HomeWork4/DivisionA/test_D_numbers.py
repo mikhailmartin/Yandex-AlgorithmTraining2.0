@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork4.DivisionA.D_numbers import main
+from HomeWork4.DivisionA.D_numbers.main import main
 
 
 @pytest.mark.parametrize(
@@ -17,5 +17,5 @@ from HomeWork4.DivisionA.D_numbers import main
         param(["00", "0"], "0", id="custom1"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

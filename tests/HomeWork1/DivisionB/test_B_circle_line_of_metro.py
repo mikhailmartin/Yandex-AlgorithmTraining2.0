@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.DivisionB.B_circle_line_of_metro import main
+from HomeWork1.DivisionB.B_circle_line_of_metro.main import main
 
 
 @pytest.mark.parametrize(
@@ -18,5 +18,5 @@ from HomeWork1.DivisionB.B_circle_line_of_metro import main
         param(["10 9 1"], 1, id="custom2"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

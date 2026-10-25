@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork3.DivisionB.D_guess_number import main
+from HomeWork3.DivisionB.D_guess_number.main import main
 
 
 @pytest.mark.parametrize(
@@ -54,5 +54,5 @@ from HomeWork3.DivisionB.D_guess_number import main
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

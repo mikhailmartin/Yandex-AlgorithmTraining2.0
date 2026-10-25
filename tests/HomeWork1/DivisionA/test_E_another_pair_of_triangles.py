@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.DivisionA.E_another_pair_of_triangles import main
+from HomeWork1.DivisionA.E_another_pair_of_triangles.main import main
 
 
 @pytest.mark.parametrize(
@@ -16,5 +16,5 @@ from HomeWork1.DivisionA.E_another_pair_of_triangles import main
         param(["4"], -1, id="example2"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

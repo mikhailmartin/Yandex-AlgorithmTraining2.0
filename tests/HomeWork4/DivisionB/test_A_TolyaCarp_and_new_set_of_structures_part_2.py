@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork4.DivisionB.A_TolyaCarp_and_new_set_of_structures_part_2 import main
+from HomeWork4.DivisionB.A_TolyaCarp_and_new_set_of_structures_part_2.main import main
 
 
 @pytest.mark.parametrize(
@@ -40,5 +40,5 @@ from HomeWork4.DivisionB.A_TolyaCarp_and_new_set_of_structures_part_2 import mai
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

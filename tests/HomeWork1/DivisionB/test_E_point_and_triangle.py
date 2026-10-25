@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork1.DivisionB.E_point_and_triangle import main
+from HomeWork1.DivisionB.E_point_and_triangle.main import main
 
 
 @pytest.mark.parametrize(
@@ -18,5 +18,5 @@ from HomeWork1.DivisionB.E_point_and_triangle import main
         param(["4", "2 2"], 0, id="example4"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

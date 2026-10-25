@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork3.DivisionA.B_multigraph import main
+from HomeWork3.DivisionA.B_multigraph.main import main
 
 
 @pytest.mark.parametrize(
@@ -19,5 +19,5 @@ from HomeWork3.DivisionA.B_multigraph import main
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

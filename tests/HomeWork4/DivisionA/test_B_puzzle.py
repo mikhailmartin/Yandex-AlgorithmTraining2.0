@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork4.DivisionA.B_puzzle import main
+from HomeWork4.DivisionA.B_puzzle.main import main
 
 from collections import Counter
 
@@ -31,5 +31,5 @@ from collections import Counter
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_soltest_mainve(lines, expected):
     assert main(lines) == expected

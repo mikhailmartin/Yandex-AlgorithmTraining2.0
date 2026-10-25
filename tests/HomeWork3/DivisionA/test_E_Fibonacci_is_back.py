@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork3.DivisionA.E_Fibonacci_is_back import main
+from HomeWork3.DivisionA.E_Fibonacci_is_back.main import main
 
 
 @pytest.mark.parametrize(
@@ -19,5 +19,5 @@ from HomeWork3.DivisionA.E_Fibonacci_is_back import main
         ),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected

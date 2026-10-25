@@ -6,7 +6,7 @@ sys.path.append(parent_dir)
 
 import pytest
 from pytest import param
-from HomeWork5.DivisionB.D_correct_round_bracketed import main
+from HomeWork5.DivisionB.D_correct_round_bracketed.main import main
 
 
 @pytest.mark.parametrize(
@@ -16,5 +16,5 @@ from HomeWork5.DivisionB.D_correct_round_bracketed import main
         param(["(()))()"], "NO", id="example2"),
     ],
 )
-def test_solve(lines, expected):
+def test_main(lines, expected):
     assert main(lines) == expected
