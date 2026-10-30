@@ -92,15 +92,15 @@
   </details>
 
 </details>
-<details open="true"><summary>❌ HomeWork5 «Префиксные суммы и два указателя»</summary>
+<details><summary>✔️ HomeWork5 «Префиксные суммы и два указателя»</summary>
 
-  <details open="true"><summary>❌ Дивизион A</summary>
+  <details open="true"><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Стильная одежда 2
   - ✔️ B. Сложите конфетки
   - ✔️ C. Лучшие друзья девушек - это фуллерены
   - ✔️ D. Скобки
-  - ❌ E. Странные строки
+  - ✔️ E. Странные строки
 
   </details>
 
