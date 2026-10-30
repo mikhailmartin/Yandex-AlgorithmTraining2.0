@@ -115,7 +115,28 @@
   </details>
 
 </details>
-<details><summary>❌ HomeWork6 «Бинарный поиск»</summary>
+<details open="true"><summary>❌ HomeWork6 «Бинарный поиск»</summary>
+
+  <details open="true"><summary>❌ Дивизион A</summary>
+
+  - ❌ A.
+  - ❌ B.
+  - ❌ C.
+  - ❌ D.
+  - ❌ E.
+
+  </details>
+
+  <details open="true"><summary>❌ Дивизион B</summary>
+
+  - ✔️ A. Быстрый поиск в массиве
+  - ❌ B. Номер левого и правого вхождения
+  - ❌ C. Корень кубического уравнения
+  - ❌ D. Вырубка леса
+  - ❌ E. Покрытие K отрезками
+
+  </details>
+
 </details>
 <details><summary>❌ HomeWork7 «Сортировка событий»</summary>
 </details>
