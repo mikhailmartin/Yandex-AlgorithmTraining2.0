@@ -115,15 +115,15 @@
   </details>
 
 </details>
-<details open="true"><summary>❌ HomeWork6 «Бинарный поиск»</summary>
+<details><summary>✔️ HomeWork6 «Бинарный поиск»</summary>
 
-  <details open="true"><summary>❌ Дивизион A</summary>
+  <details open="true"><summary>✔️ Дивизион A</summary>
 
   - ✔️ A. Горячо-Холодно
   - ✔️ B. Билеты
   - ✔️ C. Проходной балл на олимпиаду
   - ✔️ D. Эльфы и олени
-  - ❌ E. Выборы
+  - ✔️ E. Выборы
 
   </details>
 
@@ -138,7 +138,7 @@
   </details>
 
 </details>
-<details><summary>❌ HomeWork7 «Сортировка событий»</summary>
+<details open="true"><summary>❌ HomeWork7 «Сортировка событий»</summary>
 </details>
 <details><summary>❌ HomeWork8 «Деревья»</summary>
 </details>

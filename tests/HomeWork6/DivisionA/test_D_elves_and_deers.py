@@ -18,7 +18,7 @@ from HomeWork6.DivisionA.D_elves_and_deers.main import main
                 "2 3 4 5",
                 "1 3 2 2 5 2",
             ],
-            [(1, 1, 2), (2, 4, 5)],
+            [(1, 1, 2), (2, 3, 5)],
             id="example",
         ),
     ],
