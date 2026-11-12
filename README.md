@@ -140,13 +140,13 @@
 </details>
 <details open="true"><summary>❌ HomeWork7 «Сортировка событий»</summary>
 
-  <details open="true"><summary>❌ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Закраска прямой
   - ✔️ B. Таможня
   - ✔️ C. Минимальное покрытие
   - ✔️ D. Наполненность котятами
-  - ❌ E. Полярные прямоугольники
+  - ✔️ E. Полярные прямоугольники
 
   </details>
 
