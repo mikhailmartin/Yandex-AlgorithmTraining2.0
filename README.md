@@ -140,6 +140,16 @@
 </details>
 <details open="true"><summary>❌ HomeWork7 «Сортировка событий»</summary>
 
+  <details open="true"><summary>❌ Дивизион A</summary>
+
+  - A. ✔️ Катание на автобусах
+  - B. ❌ Покраска забора
+  - C. ❌ Объединение прямоугольников
+  - D. ❌ Древние цивилизации
+  - E. ❌ Отрезки на прямой возвращаются
+
+  </details>
+
   <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Закраска прямой
