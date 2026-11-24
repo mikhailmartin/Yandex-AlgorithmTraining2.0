@@ -164,15 +164,22 @@
 <details open="true"><summary>❌ HomeWork8 «Деревья»</summary>
 
   <details open="true"><summary>❌ Дивизион A</summary>
+
+  - ❌ A.
+  - ❌ B.
+  - ❌ C.
+  - ❌ D.
+  - ❌ E.
+
   </details>
 
-  <details open="true"><summary>❌ Дивизион B</summary>
+  <details open="true"><summary>✔️ Дивизион B</summary>
 
   - ✔️ A. Бинарное дерево (вставка, поиск, обход)
   - ✔️ B. Родословная: предки и потомки
   - ✔️ C. Родословная: LCA
   - ✔️ D. Бусинки
-  - ❌ E. Дерево Хаффмана
+  - ✔️ E. Дерево Хаффмана
 
   </details>
 
