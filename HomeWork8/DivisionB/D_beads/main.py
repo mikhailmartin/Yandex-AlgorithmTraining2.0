@@ -16,13 +16,6 @@ def main(lines: list[str] | None = None) -> int:
         mapping[a].append(b)
         mapping[b].append(a)
 
-    # ищем лист
-    j = 1
-    while True:
-        if len(mapping[j]) == 1:
-            break
-        j += 1
-
     def farthest(src: int) -> tuple[int, int]:
         dist = {src: 0}
         deq = deque([src])
